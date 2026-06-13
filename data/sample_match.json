@@ -1,0 +1,903 @@
+[
+  {
+    "timestamp_ms": 0,
+    "event_type": "match_start",
+    "payload": {
+      "home_team": "Manchester City",
+      "away_team": "Liverpool FC",
+      "competition": "UEFA Champions League",
+      "season": "2018/19",
+      "venue": "Etihad Stadium"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 0,
+    "event_type": "half_start",
+    "payload": { "half": 1 },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 3200,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "a6",
+      "player_name": "Kevin De Bruyne",
+      "team_id": "team_a",
+      "start_x": 50.2,
+      "start_y": 34.1,
+      "end_x": 62.5,
+      "end_y": 28.3,
+      "pass_length": 14.6,
+      "pass_angle": -0.42,
+      "outcome": "complete"
+    },
+    "match_id": "match_001",
+    "annotations": [
+      { "label": "Kick-off — Man City possession", "author": "soccernet_auto" }
+    ]
+  },
+  {
+    "timestamp_ms": 7100,
+    "event_type": "carry",
+    "payload": {
+      "player_id": "a10",
+      "player_name": "Sergio Agüero",
+      "team_id": "team_a",
+      "start_x": 62.5,
+      "start_y": 28.3,
+      "end_x": 71.0,
+      "end_y": 26.8,
+      "carry_length": 9.0
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 9500,
+    "event_type": "pressure",
+    "payload": {
+      "player_id": "b4",
+      "player_name": "Virgil van Dijk",
+      "team_id": "team_b",
+      "x": 71.0,
+      "y": 26.8
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 10800,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "a10",
+      "player_name": "Sergio Agüero",
+      "team_id": "team_a",
+      "start_x": 71.0,
+      "start_y": 26.8,
+      "end_x": 55.0,
+      "end_y": 40.0,
+      "pass_length": 21.2,
+      "pass_angle": 2.3,
+      "outcome": "complete"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 14500,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "a8",
+      "player_name": "Ilkay Gündogan",
+      "team_id": "team_a",
+      "start_x": 55.0,
+      "start_y": 40.0,
+      "end_x": 80.2,
+      "end_y": 35.6,
+      "pass_length": 26.4,
+      "pass_angle": -0.15,
+      "outcome": "complete"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 17200,
+    "event_type": "dribble",
+    "payload": {
+      "player_id": "a7",
+      "player_name": "Raheem Sterling",
+      "team_id": "team_a",
+      "x": 80.2,
+      "y": 35.6,
+      "outcome": "complete"
+    },
+    "match_id": "match_001",
+    "annotations": [
+      { "label": "Sterling beats Robertson on the outside", "author": "analyst_1" }
+    ]
+  },
+  {
+    "timestamp_ms": 20400,
+    "event_type": "shot",
+    "payload": {
+      "player_id": "a10",
+      "player_name": "Sergio Agüero",
+      "team_id": "team_a",
+      "x": 105.5,
+      "y": 38.2,
+      "shot_technique": "right foot",
+      "shot_outcome": "saved",
+      "xg": 0.17,
+      "statsbomb_xg": 0.17
+    },
+    "match_id": "match_001",
+    "annotations": [
+      { "label": "Early chance — Agüero stings Alisson", "author": "analyst_1" }
+    ]
+  },
+  {
+    "timestamp_ms": 24300,
+    "event_type": "clearance",
+    "payload": {
+      "player_id": "b5",
+      "player_name": "Joel Matip",
+      "team_id": "team_b",
+      "x": 108.0,
+      "y": 36.5,
+      "head": false
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 30100,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "b1",
+      "player_name": "Alisson Becker",
+      "team_id": "team_b",
+      "start_x": 5.0,
+      "start_y": 40.0,
+      "end_x": 30.0,
+      "end_y": 68.5,
+      "pass_length": 46.2,
+      "pass_angle": 1.1,
+      "outcome": "complete",
+      "height": "high"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 36500,
+    "event_type": "interception",
+    "payload": {
+      "player_id": "a5",
+      "player_name": "John Stones",
+      "team_id": "team_a",
+      "x": 30.0,
+      "y": 68.5,
+      "outcome": "success"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 40200,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "a5",
+      "player_name": "John Stones",
+      "team_id": "team_a",
+      "start_x": 30.0,
+      "start_y": 68.5,
+      "end_x": 45.5,
+      "end_y": 50.0,
+      "pass_length": 22.1,
+      "outcome": "complete"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 46000,
+    "event_type": "pressure",
+    "payload": {
+      "player_id": "b9",
+      "player_name": "Roberto Firmino",
+      "team_id": "team_b",
+      "x": 45.5,
+      "y": 50.0
+    },
+    "match_id": "match_001",
+    "annotations": [
+      { "label": "Liverpool high press engaged", "author": "analyst_1" }
+    ]
+  },
+  {
+    "timestamp_ms": 47500,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "a6",
+      "player_name": "Kevin De Bruyne",
+      "team_id": "team_a",
+      "start_x": 45.5,
+      "start_y": 50.0,
+      "end_x": 0.0,
+      "end_y": 0.0,
+      "outcome": "incomplete",
+      "under_pressure": true
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 52200,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "b11",
+      "player_name": "Mohamed Salah",
+      "team_id": "team_b",
+      "start_x": 50.0,
+      "start_y": 48.0,
+      "end_x": 75.0,
+      "end_y": 55.0,
+      "pass_length": 27.3,
+      "outcome": "complete"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 56800,
+    "event_type": "carry",
+    "payload": {
+      "player_id": "b11",
+      "player_name": "Mohamed Salah",
+      "team_id": "team_b",
+      "start_x": 75.0,
+      "start_y": 55.0,
+      "end_x": 92.0,
+      "end_y": 52.0,
+      "carry_length": 18.2
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 60100,
+    "event_type": "shot",
+    "payload": {
+      "player_id": "b11",
+      "player_name": "Mohamed Salah",
+      "team_id": "team_b",
+      "x": 102.8,
+      "y": 44.5,
+      "shot_technique": "right foot",
+      "shot_outcome": "off_target",
+      "xg": 0.08
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 68400,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "a2",
+      "player_name": "Kyle Walker",
+      "team_id": "team_a",
+      "start_x": 15.0,
+      "start_y": 20.0,
+      "end_x": 45.0,
+      "end_y": 30.0,
+      "pass_length": 32.5,
+      "outcome": "complete"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 74600,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "a6",
+      "player_name": "Kevin De Bruyne",
+      "team_id": "team_a",
+      "start_x": 45.0,
+      "start_y": 30.0,
+      "end_x": 90.0,
+      "end_y": 25.0,
+      "pass_length": 46.9,
+      "pass_angle": -0.1,
+      "outcome": "complete",
+      "switch": true
+    },
+    "match_id": "match_001",
+    "annotations": [
+      { "label": "De Bruyne switches play — City build-up", "author": "analyst_1" }
+    ]
+  },
+  {
+    "timestamp_ms": 80000,
+    "event_type": "dribble",
+    "payload": {
+      "player_id": "a3",
+      "player_name": "Benjamin Mendy",
+      "team_id": "team_a",
+      "x": 90.0,
+      "y": 25.0,
+      "outcome": "complete"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 84500,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "a3",
+      "player_name": "Benjamin Mendy",
+      "team_id": "team_a",
+      "start_x": 90.0,
+      "start_y": 25.0,
+      "end_x": 105.0,
+      "end_y": 38.0,
+      "cross": true,
+      "outcome": "incomplete"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 92300,
+    "event_type": "clearance",
+    "payload": {
+      "player_id": "b4",
+      "player_name": "Virgil van Dijk",
+      "team_id": "team_b",
+      "x": 105.0,
+      "y": 38.0,
+      "head": true
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 100700,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "b8",
+      "player_name": "Jordan Henderson",
+      "team_id": "team_b",
+      "start_x": 60.0,
+      "start_y": 45.0,
+      "end_x": 80.0,
+      "end_y": 60.0,
+      "pass_length": 23.2,
+      "outcome": "complete"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 107200,
+    "event_type": "pressure",
+    "payload": {
+      "player_id": "a6",
+      "player_name": "Kevin De Bruyne",
+      "team_id": "team_a",
+      "x": 80.0,
+      "y": 60.0
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 108500,
+    "event_type": "interception",
+    "payload": {
+      "player_id": "a6",
+      "player_name": "Kevin De Bruyne",
+      "team_id": "team_a",
+      "x": 80.0,
+      "y": 60.0,
+      "outcome": "success"
+    },
+    "match_id": "match_001",
+    "annotations": [
+      { "label": "De Bruyne wins the ball high — City counter", "author": "analyst_1" }
+    ]
+  },
+  {
+    "timestamp_ms": 110000,
+    "event_type": "carry",
+    "payload": {
+      "player_id": "a6",
+      "player_name": "Kevin De Bruyne",
+      "team_id": "team_a",
+      "start_x": 80.0,
+      "start_y": 60.0,
+      "end_x": 98.0,
+      "end_y": 50.0,
+      "carry_length": 21.0
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 113400,
+    "event_type": "shot",
+    "payload": {
+      "player_id": "a6",
+      "player_name": "Kevin De Bruyne",
+      "team_id": "team_a",
+      "x": 103.5,
+      "y": 42.0,
+      "shot_technique": "right foot",
+      "shot_outcome": "goal",
+      "xg": 0.31,
+      "is_goal": true,
+      "score_home": 1,
+      "score_away": 0
+    },
+    "match_id": "match_001",
+    "annotations": [
+      { "label": "GOAL — De Bruyne fires low into the corner", "author": "analyst_1" },
+      { "label": "Counter-attack goal from interception +5s", "author": "analyst_1" }
+    ]
+  },
+  {
+    "timestamp_ms": 180000,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "b1",
+      "player_name": "Alisson Becker",
+      "team_id": "team_b",
+      "start_x": 5.0,
+      "start_y": 40.0,
+      "end_x": 40.0,
+      "end_y": 60.0,
+      "pass_length": 48.6,
+      "outcome": "complete",
+      "height": "high"
+    },
+    "match_id": "match_001",
+    "annotations": [
+      { "label": "Liverpool kick-off after conceding", "author": "soccernet_auto" }
+    ]
+  },
+  {
+    "timestamp_ms": 190500,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "b10",
+      "player_name": "Sadio Mané",
+      "team_id": "team_b",
+      "start_x": 40.0,
+      "start_y": 60.0,
+      "end_x": 60.0,
+      "end_y": 55.0,
+      "pass_length": 22.4,
+      "outcome": "complete"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 198000,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "b6",
+      "player_name": "Fabinho",
+      "team_id": "team_b",
+      "start_x": 60.0,
+      "start_y": 55.0,
+      "end_x": 78.0,
+      "end_y": 42.0,
+      "pass_length": 21.8,
+      "outcome": "complete"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 205300,
+    "event_type": "dribble",
+    "payload": {
+      "player_id": "b11",
+      "player_name": "Mohamed Salah",
+      "team_id": "team_b",
+      "x": 78.0,
+      "y": 42.0,
+      "outcome": "complete"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 211000,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "b11",
+      "player_name": "Mohamed Salah",
+      "team_id": "team_b",
+      "start_x": 78.0,
+      "start_y": 42.0,
+      "end_x": 100.0,
+      "end_y": 48.0,
+      "pass_length": 23.6,
+      "outcome": "complete",
+      "key_pass": true
+    },
+    "match_id": "match_001",
+    "annotations": [
+      { "label": "Salah through-ball — Liverpool attacking third", "author": "analyst_1" }
+    ]
+  },
+  {
+    "timestamp_ms": 215800,
+    "event_type": "shot",
+    "payload": {
+      "player_id": "b9",
+      "player_name": "Roberto Firmino",
+      "team_id": "team_b",
+      "x": 106.0,
+      "y": 38.5,
+      "shot_technique": "right foot",
+      "shot_outcome": "saved",
+      "xg": 0.22
+    },
+    "match_id": "match_001",
+    "annotations": [
+      { "label": "Firmino denied by Ederson — good save", "author": "analyst_1" }
+    ]
+  },
+  {
+    "timestamp_ms": 240000,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "a4",
+      "player_name": "Vincent Kompany",
+      "team_id": "team_a",
+      "start_x": 12.0,
+      "start_y": 38.0,
+      "end_x": 35.0,
+      "end_y": 35.0,
+      "pass_length": 24.2,
+      "outcome": "complete"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 248000,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "a8",
+      "player_name": "Ilkay Gündogan",
+      "team_id": "team_a",
+      "start_x": 35.0,
+      "start_y": 35.0,
+      "end_x": 50.0,
+      "end_y": 45.0,
+      "pass_length": 19.3,
+      "outcome": "complete"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 258500,
+    "event_type": "carry",
+    "payload": {
+      "player_id": "a6",
+      "player_name": "Kevin De Bruyne",
+      "team_id": "team_a",
+      "start_x": 50.0,
+      "start_y": 45.0,
+      "end_x": 68.0,
+      "end_y": 40.0,
+      "carry_length": 19.2
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 265000,
+    "event_type": "pressure",
+    "payload": {
+      "player_id": "b9",
+      "player_name": "Roberto Firmino",
+      "team_id": "team_b",
+      "x": 68.0,
+      "y": 40.0
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 270500,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "a6",
+      "player_name": "Kevin De Bruyne",
+      "team_id": "team_a",
+      "start_x": 68.0,
+      "start_y": 40.0,
+      "end_x": 55.0,
+      "end_y": 50.0,
+      "outcome": "complete",
+      "under_pressure": true
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 300000,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "b7",
+      "player_name": "James Milner",
+      "team_id": "team_b",
+      "start_x": 55.0,
+      "start_y": 30.0,
+      "end_x": 75.0,
+      "end_y": 35.0,
+      "pass_length": 20.6,
+      "outcome": "complete"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 310000,
+    "event_type": "carry",
+    "payload": {
+      "player_id": "b10",
+      "player_name": "Sadio Mané",
+      "team_id": "team_b",
+      "start_x": 75.0,
+      "start_y": 35.0,
+      "end_x": 95.0,
+      "end_y": 38.0,
+      "carry_length": 20.2
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 317000,
+    "event_type": "dribble",
+    "payload": {
+      "player_id": "b10",
+      "player_name": "Sadio Mané",
+      "team_id": "team_b",
+      "x": 95.0,
+      "y": 38.0,
+      "outcome": "incomplete"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 320000,
+    "event_type": "interception",
+    "payload": {
+      "player_id": "a2",
+      "player_name": "Kyle Walker",
+      "team_id": "team_a",
+      "x": 95.0,
+      "y": 38.0,
+      "outcome": "success"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 360000,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "a6",
+      "player_name": "Kevin De Bruyne",
+      "team_id": "team_a",
+      "start_x": 65.0,
+      "start_y": 45.0,
+      "end_x": 88.0,
+      "end_y": 30.0,
+      "pass_length": 27.2,
+      "outcome": "complete",
+      "key_pass": true
+    },
+    "match_id": "match_001",
+    "annotations": [
+      { "label": "De Bruyne key pass — dangerous cross-field", "author": "analyst_1" }
+    ]
+  },
+  {
+    "timestamp_ms": 367000,
+    "event_type": "shot",
+    "payload": {
+      "player_id": "a7",
+      "player_name": "Raheem Sterling",
+      "team_id": "team_a",
+      "x": 104.0,
+      "y": 36.0,
+      "shot_technique": "right foot",
+      "shot_outcome": "blocked",
+      "xg": 0.14
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 420000,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "b4",
+      "player_name": "Virgil van Dijk",
+      "team_id": "team_b",
+      "start_x": 20.0,
+      "start_y": 40.0,
+      "end_x": 55.0,
+      "end_y": 45.0,
+      "pass_length": 36.8,
+      "outcome": "complete"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 432000,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "b9",
+      "player_name": "Roberto Firmino",
+      "team_id": "team_b",
+      "start_x": 55.0,
+      "start_y": 45.0,
+      "end_x": 80.0,
+      "end_y": 50.0,
+      "pass_length": 26.0,
+      "outcome": "complete"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 440000,
+    "event_type": "pressure",
+    "payload": {
+      "player_id": "a5",
+      "player_name": "John Stones",
+      "team_id": "team_a",
+      "x": 80.0,
+      "y": 50.0
+    },
+    "match_id": "match_001",
+    "annotations": [
+      { "label": "City press — Stones steps out", "author": "analyst_1" }
+    ]
+  },
+  {
+    "timestamp_ms": 455000,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "b11",
+      "player_name": "Mohamed Salah",
+      "team_id": "team_b",
+      "start_x": 80.0,
+      "start_y": 50.0,
+      "end_x": 105.0,
+      "end_y": 42.0,
+      "pass_length": 27.2,
+      "outcome": "complete",
+      "key_pass": true
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 460000,
+    "event_type": "shot",
+    "payload": {
+      "player_id": "b10",
+      "player_name": "Sadio Mané",
+      "team_id": "team_b",
+      "x": 106.5,
+      "y": 38.0,
+      "shot_technique": "left foot",
+      "shot_outcome": "goal",
+      "xg": 0.28,
+      "is_goal": true,
+      "score_home": 1,
+      "score_away": 1
+    },
+    "match_id": "match_001",
+    "annotations": [
+      { "label": "GOAL — Mané equalises for Liverpool", "author": "analyst_1" }
+    ]
+  },
+  {
+    "timestamp_ms": 530000,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "a10",
+      "player_name": "Sergio Agüero",
+      "team_id": "team_a",
+      "start_x": 50.0,
+      "start_y": 40.0,
+      "end_x": 70.0,
+      "end_y": 45.0,
+      "pass_length": 21.2,
+      "outcome": "complete"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 540000,
+    "event_type": "carry",
+    "payload": {
+      "player_id": "a7",
+      "player_name": "Raheem Sterling",
+      "team_id": "team_a",
+      "start_x": 70.0,
+      "start_y": 45.0,
+      "end_x": 88.0,
+      "end_y": 40.0,
+      "carry_length": 19.2
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 547000,
+    "event_type": "dribble",
+    "payload": {
+      "player_id": "a7",
+      "player_name": "Raheem Sterling",
+      "team_id": "team_a",
+      "x": 88.0,
+      "y": 40.0,
+      "outcome": "complete"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 552000,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "a7",
+      "player_name": "Raheem Sterling",
+      "team_id": "team_a",
+      "start_x": 88.0,
+      "start_y": 40.0,
+      "end_x": 105.0,
+      "end_y": 35.0,
+      "cross": true,
+      "outcome": "complete"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 556000,
+    "event_type": "shot",
+    "payload": {
+      "player_id": "a10",
+      "player_name": "Sergio Agüero",
+      "team_id": "team_a",
+      "x": 108.0,
+      "y": 37.5,
+      "shot_technique": "header",
+      "shot_outcome": "off_target",
+      "xg": 0.11
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 580000,
+    "event_type": "substitution",
+    "payload": {
+      "team_id": "team_b",
+      "player_off_id": "b7",
+      "player_off_name": "James Milner",
+      "player_on_id": "b14",
+      "player_on_name": "Xherdan Shaqiri"
+    },
+    "match_id": "match_001",
+    "annotations": [
+      { "label": "Liverpool change — Shaqiri replaces Milner", "author": "soccernet_auto" }
+    ]
+  },
+  {
+    "timestamp_ms": 598000,
+    "event_type": "pass",
+    "payload": {
+      "player_id": "b6",
+      "player_name": "Fabinho",
+      "team_id": "team_b",
+      "start_x": 48.0,
+      "start_y": 35.0,
+      "end_x": 70.0,
+      "end_y": 42.0,
+      "pass_length": 24.0,
+      "outcome": "complete"
+    },
+    "match_id": "match_001"
+  },
+  {
+    "timestamp_ms": 600000,
+    "event_type": "half_end",
+    "payload": { "half": 1, "score_home": 1, "score_away": 1 },
+    "match_id": "match_001",
+    "annotations": [
+      { "label": "Half-time — 1-1 at the Etihad", "author": "soccernet_auto" }
+    ]
+  }
+]
