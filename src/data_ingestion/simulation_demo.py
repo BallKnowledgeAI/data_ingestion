@@ -147,7 +147,7 @@ def main() -> None:
         competition_id  = 16,
         season_id       = 4,
         match_id        = 22912,
-        speed_factor    = 500.0,        # 90 min in ~11 wall-clock seconds
+        speed_factor    = 1.0,        # 90 min in ~11 wall-clock seconds
         carry_tracking_hz = 5.0,
     )
     print(f"  Events  : {len(source._pending):,} (actions + positional)")
